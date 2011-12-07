@@ -42,7 +42,7 @@ void testApp::setup() {
 	// OSC Setup
 	// open an outgoing connection to HOST:PORT
 	//oscOut.setup( "10.3.4.23", 9000 );
-	oscOut.setup( "127.0.0.1", 9000 );
+	oscOut.setup( "127.0.0.1", 9001 );
 	
 }
 
@@ -146,10 +146,11 @@ void testApp::update() {
 		
 		m.addIntArg( 1 );
 		oscOut.sendMessage(m);
-		
+		m.clear();
 		m.setAddress( "/numPeople");
 		m.addIntArg( contourFinderA.blobs.size() );
 		oscOut.sendMessage( m );
+		m.clear();
 		presence = true;
 		
 		for (int blobNum = 0; blobNum < contourFinderA.blobs.size(); blobNum++) {
@@ -162,10 +163,12 @@ void testApp::update() {
 		m.setAddress( "/closestObject" );
 		m.addIntArg( closestObject );
 		oscOut.sendMessage( m );
+		m.clear();
 		
 	} else {
-		m.addIntArg( 0 );
+		/*m.addIntArg( 0 );
 		oscOut.sendMessage( m );
+		m.clear();*/
 	}
 	
 #ifdef USE_TWO_KINECTS
