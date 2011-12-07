@@ -297,7 +297,7 @@
 							<real>459</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>901 278 1396 823 0 0 2560 1418 </string>
+						<string>1114 503 1396 823 0 0 2560 1418 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F9A105FB148F6B5E00704899</string>
+										<string>F9A10625148F75EB00704899</string>
 										<key>history</key>
 										<array>
 											<string>F9A103C2148E7FCF00704899</string>
@@ -336,10 +336,10 @@
 											<string>F9A10500148EB01E00704899</string>
 											<string>F9A10501148EB01E00704899</string>
 											<string>F9A10503148EB01E00704899</string>
-											<string>F9A10507148EB01E00704899</string>
 											<string>F9A105A7148EB61800704899</string>
 											<string>F9A105A8148EB61800704899</string>
-											<string>F9A105A9148EB61800704899</string>
+											<string>F9A10616148F740300704899</string>
+											<string>F9A10617148F740300704899</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,14 +351,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {915, 659}}</string>
+								<string>{{0, 0}, {915, 656}}</string>
 								<key>RubberWindowFrame</key>
-								<string>901 278 1396 823 0 0 2560 1418 </string>
+								<string>1114 503 1396 823 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>659pt</string>
+							<string>656pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -371,14 +371,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 664}, {915, 118}}</string>
+								<string>{{0, 661}, {915, 121}}</string>
 								<key>RubberWindowFrame</key>
-								<string>901 278 1396 823 0 0 2560 1418 </string>
+								<string>1114 503 1396 823 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>118pt</string>
+							<string>121pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -397,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F9A10540148EB05900704899</string>
+				<string>F9A10619148F740300704899</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F9A10541148EB05900704899</string>
+				<string>F9A1061A148F740300704899</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,16 +537,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F9A105FC148F6B5E00704899</string>
-		<string>F9A1058B148EB4F900704899</string>
-		<string>F9A1058C148EB4F900704899</string>
+		<string>F9A10623148F740300704899</string>
+		<string>F9A10624148F740300704899</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F9B4A7FB14867170006D4362</string>
-		<string>/workspaces/app/openframeworks/007/apps/achoirofyou/kinect-osc/kinect-osc.xcodeproj</string>
+		<string>/workspaces/app/openframeworks/007/apps/wk-choir/kinect-osc/kinect-osc.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>901 278 1396 823 0 0 2560 1418 </string>
+	<string>1114 503 1396 823 0 0 2560 1418 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -623,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>F9B4A7FB14867170006D4362</string>
-				<string>F9A10542148EB05900704899</string>
+				<string>F9A1061B148F740300704899</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -667,8 +666,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 202}}</string>
-											<string>{{316, 0}, {378, 202}}</string>
+											<string>{{0, 0}, {316, 203}}</string>
+											<string>{{316, 0}, {378, 203}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -683,8 +682,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 202}}</string>
-											<string>{{0, 202}, {694, 179}}</string>
+											<string>{{0, 0}, {694, 203}}</string>
+											<string>{{0, 203}, {694, 178}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -717,7 +716,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 202}}</string>
+									<string>{{316, 0}, {378, 203}}</string>
 									<key>RubberWindowFrame</key>
 									<string>205 117 694 422 0 0 2560 1418 </string>
 								</dict>
@@ -745,13 +744,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F9A10543148EB05900704899</string>
+				<string>F9A1061C148F740300704899</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F9A10544148EB05900704899</string>
-				<string>F9A10545148EB05900704899</string>
-				<string>F9A10546148EB05900704899</string>
-				<string>F9A10547148EB05900704899</string>
-				<string>F9A10548148EB05900704899</string>
+				<string>F9A1061D148F740300704899</string>
+				<string>F9A1061E148F740300704899</string>
+				<string>F9A1061F148F740300704899</string>
+				<string>F9A10620148F740300704899</string>
+				<string>F9A10621148F740300704899</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -913,7 +912,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>F9A10589148EB4F900704899</string>
+				<string>F9A10622148F740300704899</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
