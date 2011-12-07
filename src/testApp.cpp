@@ -23,8 +23,8 @@ void testApp::setup() {
 	grayThreshNearA.allocate(kinect.width, kinect.height);
 	grayThreshFarA.allocate(kinect.width, kinect.height);
 	
-	nearThreshold = 230;
-	farThreshold = 70;
+	nearThreshold = 255;
+	farThreshold = 0;
 	bThreshWithOpenCV = true;
 	
 	ofSetFrameRate(60);
@@ -216,13 +216,14 @@ void testApp::draw() {
 	reportStream << "accel is: " << ofToString(kinect.getMksAccel().x, 2) << " / "
 	<< ofToString(kinect.getMksAccel().y, 2) << " / "
 	<< ofToString(kinect.getMksAccel().z, 2) << endl
-	<< "press p to switch between images and point cloud, rotate the point cloud with the mouse" << endl
-	<< "using opencv threshold = " << bThreshWithOpenCV <<" (press spacebar)" << endl
-	<< "set near threshold " << nearThreshold << " (press: + -)" << endl
-	<< "set far threshold " << farThreshold << " (press: < >) num blobs found " << contourFinderA.blobs.size()
-	<< ", fps: " << ofGetFrameRate() << endl
-	<< "press c to close the connection and o to open it again, connection is: " << kinect.isConnected() << endl
-	<< "press UP and DOWN to change the tilt angle: " << angle << " degrees" << endl
+	<< "p = point cloud" << endl
+	<< "space = toggle opencv threshold = " << bThreshWithOpenCV << endl
+	<< "near threshold " << nearThreshold << " (press: + -)" << endl
+	<< "far threshold " << farThreshold << " (press: < >)" << endl
+	<< "num blobs found " << contourFinderA.blobs.size() << endl
+	<< "fps: " << ofGetFrameRate() << endl
+	<< "c/o close open conn: " << kinect.isConnected() << endl
+	<< "UP/DOWN tilt angle: " << angle << " degrees" << endl
 	<< "Closest Object: " << closestObject << endl;
 	ofDrawBitmapString(reportStream.str(),20,652);
 }
