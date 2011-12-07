@@ -166,9 +166,9 @@ void testApp::update() {
 		m.clear();
 		
 	} else {
-		/*m.addIntArg( 0 );
+		m.addIntArg( 0 );
 		oscOut.sendMessage( m );
-		m.clear();*/
+		m.clear();
 	}
 	
 #ifdef USE_TWO_KINECTS
